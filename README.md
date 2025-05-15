@@ -17,7 +17,7 @@ Start the development server on `http://localhost:3000`:
 
 ```bash
 # pnpm
-pnpm dev
+pnpm run dev
 ```
 
 ## Production
