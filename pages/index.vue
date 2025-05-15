@@ -14,7 +14,7 @@
 
     <EasyDataTable :headers="headers" :items="items" button-pagination v-model:server-options="serverOptions"
         :server-items-length="serverItemsLength" :loading="loading">
-        <template #item.thumbnail="{ thumbnail }">
+        <template #item-thumbnail="{ thumbnail }">
             <v-img :src="thumbnail" width="100" height="100">
             </v-img>
             </template>
