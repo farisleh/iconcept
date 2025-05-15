@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.v-application {
+  font-family: 'Lato', sans-serif;
+}
+
+.v-list-item:hover {
+  background: linear-gradient(to top right, rgba(19,84,122,1), rgba(36,126,115,1));
+  color: white !important;
+}
+
+.v-btn:hover {
+  background-color: rgba(72, 180, 174, 0.9);
+  color: white !important;
+}
